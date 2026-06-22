@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Model artefakti (cuvani na HF Hub-u)
+*.pt
+*.pth
+*.ckpt
+!huggingface/*.pt   # dozvoli ako Space treba lokalnu kopiju
+
+# Office privremeni
+~$*
+*.tmp
+
+# MATLAB
+*.asv
+*.slxc
+slprj/
